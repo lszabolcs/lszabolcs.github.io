@@ -3,8 +3,10 @@
 // VARIABLES
 //
 
-// Colors
-$blue: #4183C4;
+// main colors
+$orange: #e6c653;
+$blue: #2d7196;
+$green: #3F9A82;
 
 // Grays
 $black: #000;
@@ -15,9 +17,8 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$headings: 'Roboto Slab', serif;
+$text: 'Lato', sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
