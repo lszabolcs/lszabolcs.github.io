@@ -6,7 +6,7 @@
 name: Locsmándi Szabolcs
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Front-End és Wordpress fejlesztő
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/2702402?v=3&s=460
@@ -18,14 +18,14 @@ avatar: https://avatars1.githubusercontent.com/u/2702402?v=3&s=460
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
-  facebook:
+  email: locsmandi.szabolcs+web@gmail.com
+  facebook: szabolcs.locsmandi
   flickr:
-  github:
+  github: lszabolcs
   instagram:
-  linkedin:
+  linkedin: in/szabolcs-locsmándi-7b983879/
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: feed.xml
   twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>

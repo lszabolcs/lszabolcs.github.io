@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Rólam
+permalink: /rolam/
 ---
 
-Some information about you!
+Helló! Front-End és Wordpress fejlesztő vagyok. Emellett megszállott [fotós vagyok](https://locsmandisz.hu){:target="_blank"}.
 
-### More Information
+## Vedd fel velem a kapcsolatot
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[locsmandi.szabolcs+web@gmail.com](mailto:locsmandi.szabolcs+web@gmail.com)
