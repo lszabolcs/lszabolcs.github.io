@@ -329,6 +329,7 @@ nav {
         color: $orange;
         background: transparent;
         border: solid 2px $orange;
+        border-radius: 4px;
 
         &:hover, &:active {
             color: $white;
