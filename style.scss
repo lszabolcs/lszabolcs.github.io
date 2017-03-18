@@ -68,6 +68,8 @@ p {
 a {
     text-decoration: none;
 	cursor: pointer;
+
+    @include animate( 0.2s );
 }
 
 ul, ol {

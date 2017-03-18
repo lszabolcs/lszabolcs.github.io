@@ -26,3 +26,8 @@ $text: 'Lato', sans-serif;
     @content;
   }
 }
+
+// animate
+@mixin animate( $time ) {
+  	transition: all $time ease-in-out 0s;
+}
