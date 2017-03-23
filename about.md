@@ -4,7 +4,7 @@ title: Rólam
 permalink: /rolam/
 ---
 
-Helló! Locsmándi Szabolcs vagyok, Front-End és Wordpress fejlesztő. Emellett megszállott [fotós](https://locsmandisz.hu){:target="_blank"}.
+Helló! Locsmándi Szabolcs vagyok, Front-End és Wordpress fejlesztő. Jelenleg a [Websharknál](https://webshark.hu/){:target="_blank"} dolgozom. A web mellett megszállott [fotós](https://locsmandisz.hu){:target="_blank"} vagyok.
 
 ## Ami érdekel
 Szeretem az egyszerű és jó megoldásokat. A weboldalak készítésénél arra törekszem, hogy az eredmény gyors és könnyen kezelhető legyen.
