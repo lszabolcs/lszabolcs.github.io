@@ -15,6 +15,7 @@
 
 html {
     font-size: 100%;
+    background-color: $lightGray;
 }
 
 body {
@@ -266,6 +267,7 @@ nav {
 
 .post,
 .page {
+    background-color: $white;
 
     h1 {
         position: relative;
@@ -339,14 +341,24 @@ nav {
 
 .wrapper-footer {
     margin-top: 50px;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
     background-color: $lightGray;
 }
 
 footer {
     padding: 20px 0;
     text-align: center;
+
+    a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        padding: 10px;
+
+        &:hover {
+            background-color: $orange;
+        }
+    }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
