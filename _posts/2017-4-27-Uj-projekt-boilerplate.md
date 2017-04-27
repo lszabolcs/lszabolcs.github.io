@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Új projekt? Boilrplate!
+permalink: /2017-4-27-uj-projekt-boilerplate/
 ---
 
 Új projekt indításánál a nem megfelelő keretrendszer használata az egyik legnagyobb hiba, amit elkövethetünk. Könnyűnek tűnhet lemásolni az előző projektet, és reménykedni abban, hogy az új helyén is jó lesz, de nem lesz. Amíg nem készítünk magunknak tudatosan egy bővíthető, testreszabható alapot, addig használhatjuk másokat.
