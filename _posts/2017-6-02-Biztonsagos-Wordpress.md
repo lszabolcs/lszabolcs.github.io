@@ -51,7 +51,7 @@ A mappáknak 755-ös, a fájloknak 644-es hozzáférési jogot állítsunk be é
 
 ### Korlátozzuk a fájlok külső forrásból való elérhetőségét
 Korlátozzuk vagy [jelszavazzuk](https://codex.wordpress.org/Brute_Force_Attacks#Password_Protect_wp-login.php){:target="_blank"} le a `/wp-admin` mappát. A `/wp-includes`-ban olyan fájlokat tárolunk, amik a felhasználói oldal számára nem kellenek, így innen ne engedjünk futtetni semmit se. A `.htaccess` fájl, WP-s blokkján kívülre írjuk:
-```
+{% highlight apache %}
 # Block the include-only files.
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -63,7 +63,7 @@ RewriteRule ^wp-includes/js/tinymce/langs/.+\.php - [F,L]
 RewriteRule ^wp-includes/theme-compat/ - [F,L]
 </IfModule>
 # BEGIN WordPress
-```
+{% endhighlight %}
 
 Hozzunk létre az `/uploads` mappában is egy `.htaccess`-t, így elkerülve, a feltöltött fájlok futtatását:
 ~~~
