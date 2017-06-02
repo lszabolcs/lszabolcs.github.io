@@ -15,7 +15,7 @@ Folyamatosan telepítsük a frissítéseket (ugyan ez már automatikus, de a bő
 Ha bele akarunk nyúlni a WP működésébe, akkor írjunk plugint és használjuk a [Plugin API](https://codex.wordpress.org/Plugin_API){:target="_blank"}-t.
 
 
-### Kapcsoljuk ki a beépített fájlszerkesztőt__
+### Kapcsoljuk ki a beépített fájlszerkesztőt
 Egy sor a `wp-config.php`-ben.
 {% highlight php %}
 define('DISALLOW_FILE_EDIT', true);
