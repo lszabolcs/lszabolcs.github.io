@@ -10,37 +10,37 @@ A Wordpress-re leggyakrabban használt jelzők között biztosan szerepel ez a k
 __Frissítsünk__
 Folyamatosan telepítsük a frissítéseket (ugyan ez már automatikus, de a bővítményekről és témákról nekünk kell gondoskoni).
 
-__Ne módosítsuk a core fájlokat__
+### Ne módosítsuk a core fájlokat
 Ha bele akarunk nyúlni a WP működésébe, akkor írjunk plugint és használjuk a [Plugin API](https://codex.wordpress.org/Plugin_API){:target="_blank"}-t.
 
-__Kapcsoljuk ki a beépített fájlszerkesztőt__
+### Kapcsoljuk ki a beépített fájlszerkesztőt__
 Egy sor a `wp-config.php`-ben.
 ~~~ php
 define('DISALLOW_FILE_EDIT', true);
 ~~~
 
-__Korlátozzuk a felhasználók jogait__
+### Korlátozzuk a felhasználók jogait
 Minden felhasználónak a lehető legkevesebb jogot adjunk (amennyi éppen kell a munkavégzéséhez). Az adminisztrátori jogokkal rendelkező felhasználónak ne legyen "admin" a neve, és ne publikáljunk vele tartalmat.
 
-__Szigorítsuk a belépés feltételein__
+### Szigorítsuk a belépés feltételein
 A `wp-login.php`-nál korlátozzuk a belépések számát és rakjunk be kétlépcsős azonosítást.
 
-__Az adatbázisban használjuk alternatív tábla előtagot__
+### Az adatbázisban használjuk alternatív tábla előtagot
 Ez is csupán egy sor a `wp-config.php`-ben, viszont utána az adatbázisban is ügyeljünk a táblák frissítésére.
 ~~~ php
 $table_prefix  = 'sampleprefix_';
 ~~~
 
-__Használjunk PROXY-t__
+### Használjunk PROXY-t
 Vagy valamilyen egyéb CDN-es biztonsági szolgáltatást, mint például egy sima ingyenes Cloudflare fiókot (ingyenes megosztott SSL-lel).
 
-__Állítsuk be a Google Search Console-t__
+### Állítsuk be a Google Search Console-t
 Ez nem csak a keresőoptimalizálásban segít, hanem azt is jelzi, ha valamilyen rosszindulató kód futna az oldalunkon.
 
-__Ügyeljünk a mappákra__
+### Ügyeljünk a mappákra
 A mappáknak 755-ös, a fájloknak 644-es hozzáférési jogot állítsunk be és használjunk [alternatív mappa struktúrát](https://www.rarst.net/wordpress/directory-structure/){:target="_blank"}.
 
-__Korlátozzuk a fájlok külső forrásból való elérhetőségét__
+### Korlátozzuk a fájlok külső forrásból való elérhetőségét
 Korlátozzuk vagy [jelszavazzuk](https://codex.wordpress.org/Brute_Force_Attacks#Password_Protect_wp-login.php){:target="_blank"} le a `/wp-admin` mappát. A `/wp-includes`-ban olyan fájlokat tárolunk, amik a felhasználói oldal számára nem kellenek, így innen ne engedjünk futtetni semmit se. A `.htaccess` fájl, WP-s blokkján kívülre írjuk:
 ~~~
 # Block the include-only files.
@@ -64,10 +64,10 @@ deny from all
 </Files>
 ~~~
 
-__Válogassuk meg a bővítményeket és témákat__
+### Válogassuk meg a bővítményeket és témákat
 Csak megbízható forrásból (ellenőrzött fejlesztőtől) telepítsünk bővítményt és témát (és lehetőleg minél kevesebbet).
 
-__Ne spróoljunk a hostingon__
+### Ne spóroljunk a hostingon
 Válasszunk megfelelő hosting szervert (nem árt ha van már tapasztalatuk WP-s oldallal) és legyen biztonsági mentésünk az adatbázisról és a fájlokról is.
 
 ## Biztonsági pluginek
@@ -79,5 +79,7 @@ A fentiek nagy részét (sőt, még többet is) elintézhetunk speciális plugin
 
 ## Hivatkozások
 - [Wordpress Codex - Hardening Wordpress](https://codex.wordpress.org/Hardening_WordPress){:target="_blank"}
-- [Wpmudev - Ultimate Wordpress Security Checklist](https://premium.wpmudev.org/blog/ultimate-wordpress-security-checklist/){:target="_blank"}
 - [Wordpress Codex - Plugin API](https://codex.wordpress.org/Plugin_API){:target="_blank"}
+- [Wordpress Codex - Brute Force Attack](https://codex.wordpress.org/Brute_Force_Attacks){:target="_blank"}
+- [Wordpress Codex - Editing Files](https://codex.wordpress.org/Editing_Files){:target="_blank"}
+- [Wpmudev - Ultimate Wordpress Security Checklist](https://premium.wpmudev.org/blog/ultimate-wordpress-security-checklist/){:target="_blank"}
