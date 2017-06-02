@@ -17,9 +17,9 @@ Ha bele akarunk nyúlni a WP működésébe, akkor írjunk plugint és használj
 
 ### Kapcsoljuk ki a beépített fájlszerkesztőt__
 Egy sor a `wp-config.php`-ben.
-~~~ php
+{% highlight php %}
 define('DISALLOW_FILE_EDIT', true);
-~~~
+{% endhighlight %}
 
 
 ### Korlátozzuk a felhasználók jogait
@@ -32,9 +32,9 @@ A `wp-login.php`-nál korlátozzuk a belépések számát és rakjunk be kétlé
 
 ### Az adatbázisban használjuk alternatív tábla előtagot
 Ez is csupán egy sor a `wp-config.php`-ben, viszont utána az adatbázisban is ügyeljünk a táblák frissítésére.
-~~~ php
+{% highlight php %}
 $table_prefix  = 'sampleprefix_';
-~~~
+{% endhighlight %}
 
 
 ### Használjunk PROXY-t
@@ -66,12 +66,12 @@ RewriteRule ^wp-includes/theme-compat/ - [F,L]
 {% endhighlight %}
 
 Hozzunk létre az `/uploads` mappában is egy `.htaccess`-t, így elkerülve, a feltöltött fájlok futtatását:
-~~~
+{% highlight apache %}
 # Kill PHP Execution
 <Files *.php>
 deny from all
 </Files>
-~~~
+{% endhighlight %}
 
 
 ### Válogassuk meg a bővítményeket és témákat
