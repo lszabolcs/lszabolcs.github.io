@@ -12,6 +12,10 @@ layout: default
                 {{ post.excerpt }}
             </div>
 
+            <div class="date">
+              Készült: {{ page.date | date: "%Y. %m. %d." }}
+            </div>
+
             <p class="align-right">
                 <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Bővebben</a>
             </p>
