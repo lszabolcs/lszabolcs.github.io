@@ -16,30 +16,30 @@ This project is a modern personal portfolio website (locsmandisz.hu) designed to
 ## Technical Implementation & Stack
 Built with modern web technologies for a great developer and user experience.
 
-__Framework: Next.js__ (React Framework)
+### Framework: Next.js (React Framework)
 - Utilizing Server-Side Rendering (SSR) and Static Site Generation (SSG) for performance and SEO.
 - Leverages Next.js's routing, image optimization, and font management.
 
-__Styling: Tailwind CSS__
+### Styling: Tailwind CSS
 - A utility-first CSS framework with a custom theme (colors, typography like Quicksand and Ubuntu Mono) for a unique brand identity.
 - Uses the @tailwindcss/typography plugin for rich text styling.
 
-__Component-Based Architecture: React__
+### Component-Based Architecture: React
 - UI built with reusable React components (e.g., Header, Footer, HomeSection).
 - classnames utility for conditional class rendering.
 
-__Analytics & Tracking:__
+### Analytics & Tracking:
 - Vercel Analytics & Speed Insights.
 - Google Tag Manager (GTM): Self-hosted for advanced tracking, with client-side page view events.
 
-__User Experience Enhancements:__
+### User Experience Enhancements:
 - Dynamic header that responds to scroll direction.
 - Smooth transitions for interactive elements.
 - Sticky section titles for improved context on larger screens.
 
 This project showcases proficiency in building full-stack Next.js applications, crafting UIs with Tailwind CSS, and integrating analytics. The focus was on creating a fast, accessible, and visually appealing site.
 
-## URLs
+## URL's
 - [Locsmandisz.hu](https://locsmandisz.hu/)
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
