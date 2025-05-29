@@ -13,11 +13,11 @@ layout: default
             </div>
 
             <div class="date">
-              Készült: {{ post.date | date: "%Y. %m. %d." }}
+              Date: {{ post.date | date: "%Y. %m. %d." }}
             </div>
 
             <p class="align-right">
-                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Bővebben</a>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">More</a>
             </p>
         </article>
     {% endfor %}

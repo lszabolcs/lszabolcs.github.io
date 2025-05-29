@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Rólam
-permalink: /rolam/
+title: About me
+permalink: /about/
 ---
 
-Helló! Locsmándi Szabolcs vagyok, Front-End és Wordpress fejlesztő. Jelenleg a [Websharknál](https://webshark.hu/){:target="_blank"} dolgozom. A web mellett megszállott [fotós](https://locsmandisz.hu){:target="_blank"} vagyok.
+Hello! I'm Szabolcs Locsmándi, a Front-End Developer. Currently, I work at [whatchado](https://www.whatchado.com){:target="_blank"}. Besides the web, I'm a passionate [photographer](https://thelovereporters.com){:target="_blank"}.
 
-## Ami érdekel
-Szeretem az egyszerű és jó megoldásokat. A weboldalak készítésénél arra törekszem, hogy az eredmény gyors és könnyen kezelhető legyen.
+## What interests me
+I like simple and good solutions. When creating websites, I strive for the result to be fast and easy to manage.
 
-## Vedd fel velem a kapcsolatot
+## Get in touch with me
 [locsmandi.szabolcs+web@gmail.com](mailto:locsmandi.szabolcs+web@gmail.com)
