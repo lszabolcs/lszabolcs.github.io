@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Personal Portfolio - locsmandisz.hu
+title: The Love Reporters website
 permalink: /2022-2-23-the-love-reporters/
 ---
 
